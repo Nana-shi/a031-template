@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import logo from "./img/logo.png";
+import {Footer} from "./components/Footer"
 
 export default function App() {
   const onClickBotao = () => {
@@ -9,6 +10,7 @@ export default function App() {
 
   return (
     <div className="App">
+      
       <h1>Aprenda React na Labenu!</h1>
       <div>
         <div>
@@ -21,6 +23,7 @@ export default function App() {
           <button onClick={onClickBotao}> Clique aqui! </button>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
